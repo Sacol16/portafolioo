@@ -1,0 +1,208 @@
+/* General styles */
+.body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0c0c0c;
+  width: 100vw;
+}
+
+h2, h3 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Navbar styles */
+.navbar {
+  width: 100vw; /* Asegura que la navbar ocupe todo el ancho del viewport */
+  position: fixed; /* Para que esté siempre visible en la parte superior */
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Asegura que esté encima del contenido */
+  
+}
+
+.navbar-nav {
+  justify-content: center; /* Asegura que los enlaces estén centrados */
+  width: 100%; /* Asegura que los enlaces ocupen todo el ancho disponible */
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-left: 3rem;
+}
+
+.nav-link {
+  color: #fff !important;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 0 20px;
+}
+
+/* Home Section */
+#home {
+  padding: 60px 0;
+  text-align: left;
+  display: flex;
+}
+
+#home .card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #272727;
+  color: #fff;
+  margin-top: 90px;
+}
+
+#home .card-title {
+  font-size: 3.2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+#home .card-subtitle {
+  font-size: 1.3rem;
+  font-weight:600;
+  color: #058f33;
+  margin-bottom: 1rem;
+}
+
+#home img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Skills Section */
+#skills {
+  padding: 60px 0;
+}
+
+.carousel{
+  flex: 1;
+}
+
+#skills h1{
+  font-weight: bolder;
+  font-size: 5rem;
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+#skills h2{
+  font-weight: bold;
+  margin-top: 1.2rem;
+  color: #ffffff;
+}
+
+#skills h3{
+  font-weight: bold;
+  margin-top: 1.2rem;
+  color: #ffffff;
+}
+
+.carousel-item {
+  text-align: center;
+  align-content: center;
+  padding: 30px 0;
+  background-color: #272727;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  width: 5rem;
+  height: 15rem;
+}
+
+#skills .img{
+  max-width: 128px;
+}
+
+/* Projects Section */
+#projects {
+  padding: 60px 0;
+  
+ 
+}
+
+#projects h2{
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 5rem;
+  margin-bottom: 3rem;
+}
+
+#projects h3{
+  color: #058f33;
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+#projects .carousel{
+  height: 500px;
+  margin-bottom: 4rem;
+}
+
+#projects .carousel-item{
+  height: 500px;
+  text-align: center;
+  align-content: center;
+  
+}
+
+#projects .carousel img {
+  max-width: 400px;
+  max-height: 400px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.carousel-caption a {
+  
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.carousel-caption a:hover {
+  color: #058f33;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#social {
+  padding: 60px 0;
+}
+
+#social .card {
+  text-align: center;
+  padding: 30px;
+  background-color: #272727;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#social .card-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+
+#social .d-flex a {
+  color: #ffffff;
+  margin: 0 15px;
+  transition: color 0.3s;
+}
+
+#social .d-flex a:hover {
+  color: #058f33;
+}
