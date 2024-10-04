@@ -10,7 +10,7 @@ const SocialMedia = () => {
           <Card.Title>Contacto</Card.Title>
           <div className="d-flex justify-content-around">
             <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><FaLinkedin size={32} /></a>
-            <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><FaGithub size={32} /></a>
+            <a href="https://github.com/Sacol16" target="_blank" rel="noopener noreferrer"><FaGithub size={32} /></a>
             <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><FaTwitter size={32} /></a>
             <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer"><FaFacebook size={32} /></a>
           </div>
